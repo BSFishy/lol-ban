@@ -1,0 +1,25 @@
+{
+  "name": "lolban",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development ts-node src/index.ts",
+    "start": "cross-env NODE_ENV=production ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.6",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2",
+    "erlpack": "discord/erlpack",
+    "utf-8-validate": "^5.0.9",
+    "zlib-sync": "^0.1.7"
+  }
+}
