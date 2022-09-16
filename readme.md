@@ -63,3 +63,10 @@ Once you have everything prepared, you can start the bot by running the followin
 ```shell
 yarn start
 ```
+
+## Additional Info
+
+It is possible that you set up the bot and it doesn't ban some people.
+This is most likely because it cannot ban them.
+In this case, make sure the bot has at least one role that is above the roles of everyone that you want it to be able to ban.
+I.e. don't put the bot's role at the bottom of the list.
